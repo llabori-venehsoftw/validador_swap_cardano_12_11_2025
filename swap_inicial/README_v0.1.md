@@ -1,5 +1,5 @@
-💱 Swap DEX - Token ↔ ADA Exchange
-Sistema completo de intercambio descentralizado (DEX) en Cardano usando Automated Market Maker (AMM) con fórmula de producto constante.
+💱 Swap Inicial - Token ↔ ADA Exchange
+Sistema completo de intercambio descentralizado en Cardano usando Automated Market Maker (AMM) con fórmula de producto constante.
 🎯 Características
 Operaciones Soportadas
 
@@ -77,7 +77,7 @@ shares = deposited_ada
                └─> Receive: ~100 ADA + ~1000 Tokens
                └─> Proportional to share %
 📦 Estructura del Proyecto
-swap-dex/
+swap_inicial/
 ├── validators/
 │   └── swap.ak                # ⭐ Validador AMM
 ├── scripts/
@@ -87,11 +87,11 @@ swap-dex/
 └── plutus.json
 🚀 Setup
 1. Compilar Validador
-bashcd swap-dex
+bash cd swap_inicial
 aiken build
 aiken check
 2. Instalar Dependencias
-bashcd scripts
+bash cd scripts
 npm install
 3. Configurar Environment
 bash# .env
